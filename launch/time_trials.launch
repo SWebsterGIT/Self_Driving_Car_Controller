@@ -1,0 +1,10 @@
+<launch> 
+
+<node pkg="my_controller"
+    type="time_trials.py"
+    name="time_trials" 
+    output="screen">
+</node>
+
+
+ </launch>

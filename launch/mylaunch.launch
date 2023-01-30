@@ -1,0 +1,33 @@
+<launch>
+<!-- My Package launch file -->
+      <node pkg="my_controller"
+         type="crosswalk_detector.py"
+         name="crossswalk_detector" 
+         output="screen">
+      </node>
+
+      <node pkg="my_controller"
+         type="pid.py"
+         name="pid" 
+         output="screen">
+      </node>
+
+      <node pkg="my_controller"
+         type="parking_spot.py"
+         name="parking_spot" 
+         output="screen">
+      </node>
+
+      <node pkg="my_controller"
+         type="license_plate.py"
+         name="license_plate" 
+         output="screen">
+      </node>
+
+      <node pkg="my_controller"
+         type="controller_main.py"
+         name="controller_main" 
+         output="screen">
+      </node>
+
+</launch>
