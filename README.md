@@ -1,4 +1,4 @@
-# ENPH353_Controller_Package
+# Simulated Self Driving Car Controller 
 
 This repository is meant for holding all scripts that partake in the active and autonomous controlling of the robot during the competition.
 
